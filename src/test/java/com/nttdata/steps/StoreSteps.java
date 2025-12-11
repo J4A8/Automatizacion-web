@@ -42,7 +42,7 @@ public class StoreSteps {
     }
 
     public void agregarCantidad(int cantidad){
-        WebElement qty = driver.findElement(StorePage.cantidadProducto);
+        WebElement agrcant = driver.findElement(StorePage.cantidadProducto);
     }
 
     public void agregarAlCarrito(){
